@@ -1,0 +1,37 @@
+[project]
+name = "agent-skill-framework"
+version = "1.0.0"
+description = "A standardized skill development framework for LLM agents"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-asyncio", "httpx"]
+
+[tool.poetry]
+name = "agent-skill-framework"
+version = "1.0.0"
+description = "A standardized skill development framework for LLM agents"
+authors = ["Developer"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = ">=0.109.0,<0.116.0"
+uvicorn = {extras = ["standard"], version = ">=0.27.0,<0.32.0"}
+pydantic = ">=2.5.0,<3.0.0"
+pydantic-settings = ">=2.1.0,<3.0.0"
+httpx = ">=0.26.0,<1.0.0"
+redis = ">=5.0.0,<6.0.0"
+python-dotenv = ">=1.0.0,<2.0.0"
+tenacity = ">=8.2.0,<9.0.0"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

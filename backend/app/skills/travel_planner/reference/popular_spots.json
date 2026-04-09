@@ -1,0 +1,32 @@
+[
+  {
+    "name": "青秀山",
+    "city": "南宁",
+    "category": "风景名胜",
+    "rating": 4.6,
+    "best_season": "全年",
+    "estimated_hours": 3,
+    "ticket": "免费",
+    "highlights": ["山顶俯瞰全城", "兰花园", "苏铁园"]
+  },
+  {
+    "name": "象鼻山",
+    "city": "桂林",
+    "category": "风景名胜",
+    "rating": 4.7,
+    "best_season": "4-10月",
+    "estimated_hours": 2,
+    "ticket": "免费",
+    "highlights": ["桂林城徽", "漓江标志性景点", "最佳摄影点"]
+  },
+  {
+    "name": "涠洲岛",
+    "city": "北海",
+    "category": "海岛",
+    "rating": 4.8,
+    "best_season": "5-10月",
+    "estimated_hours": "1-2天",
+    "ticket": "上岛费98元",
+    "highlights": ["火山岛地貌", "五彩滩", "贝壳沙滩", "天主教堂"]
+  }
+]
