@@ -1,4 +1,4 @@
-# TinyBill - 基于声明式技能框架的智能助手
+# Tiny - 基于声明式技能框架的智能助手
 
 <div align="center">
 
